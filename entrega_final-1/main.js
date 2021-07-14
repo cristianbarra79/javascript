@@ -13,7 +13,7 @@ class producto{
 const productos = [];
 booleano = true;
 
-alert("Carga de datos");
+alert("Carga de productos, debera ingresar los datos de los productos a vender");
 do {
     nombre = prompt("Ingrese nombre del producto:");
     precio = prompt("Ingrese precio del producto:");
@@ -26,15 +26,24 @@ do {
     }
 } while (booleano);
 
-alert("venta");
+
 decision = true;
 let pedido = "";
 let encontrado = "";
 let subtotal = 0;
 let total = 0;
+let listado = "";
 
+for (let index = 0; index < productos.length - 1; index++) {
+    listado += productos[index].nombre + ", ";
+    console.log(listado);
+    final = index;
+}
+
+
+alert("Venta, ingrese el nombre del producto (previamente cargado) y la cantidad a vender");
 do {
-    venta = prompt("Cual producto desea vender");
+    venta = prompt("Cual producto desea vender: " + listado);
     encontrado = productos.find(elemento => elemento.nombre == venta);
     if (encontrado == undefined) {
         alert("No ingreso un producto valido")
