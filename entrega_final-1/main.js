@@ -34,10 +34,8 @@ let subtotal = 0;
 let total = 0;
 let listado = "";
 
-for (let index = 0; index < productos.length - 1; index++) {
+for (let index = 0; index < productos.length; index++) {
     listado += productos[index].nombre + ", ";
-    console.log(listado);
-    final = index;
 }
 
 
