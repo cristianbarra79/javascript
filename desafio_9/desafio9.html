@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio javascript clase 9</title>
+</head>
+<body>
+    <h1>Desafio javascript clase 9</h1>     
+    <p>Hay un formulario en el html con los campos para introducir datos de productos, cuando se hace click se cargan los valores en la tabla debajo del formulario.</p> <br>
+    <a target="_blank" href="https://github.com/cristianbarra79/javascript/tree/main/desafio_9">Repositorio</a> <br>
+    <a href="../index.html">Volver</a>
+
+    <br>
+
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="precio">Precio:</label>
+        <input type="text" name="precio" id="precio">
+        <label for="stock">Stock:</label>
+        <input type="text" name="stock" id="stock">
+        <input type="submit" id="enviar" value="Enviar">
+    </form>
+
+    <br>
+
+    <table id="tabla" width="25%" border="1" cellpadding="0" cellspacing="0" >
+
+        <tr>
+        
+            <th>Nombre</th>
+            
+            <th>Precio</th>
+            
+            <th>stock</th>
+        
+        </tr>
+        
+        <tr>
+        
+            <td>manzana</td>
+            
+            <td>$25</td>
+            
+            <td>50</td>
+        
+        </tr>
+        
+        <tr>
+        
+            <td>banana</td>
+            
+            <td>$25</td>
+            
+            <td>50</td>
+        
+        </tr>
+        
+    </table>
+        
+    <script src="./desafio9.js"></script>
+</body>
+</html>
