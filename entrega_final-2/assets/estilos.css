@@ -1,0 +1,31 @@
+.botones{
+
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 5%;
+}
+
+.botones button{
+    margin: 15px;
+}
+
+#formulario{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#tablas{
+    display: flex;
+    justify-content: center;
+}
+
+.grilla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+#etiqueta{
+    margin-top: 50px;
+}
