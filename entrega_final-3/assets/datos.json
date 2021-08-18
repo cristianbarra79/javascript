@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "banana",
+        "precio": "8",
+        "stock": "100"
+    },
+    {
+        "id": 2,
+        "nombre": "manzana",
+        "precio": "5",
+        "stock": "85"
+    },
+    {
+        "id": 3,
+        "nombre": "naranja",
+        "precio": "10",
+        "stock": "50"
+    }
+]
